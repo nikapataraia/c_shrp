@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram", "Instagram\Instagram.csproj", "{03205F79-15C8-42B0-9A3D-8084B6B20C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL", "PCL\PCL.csproj", "{1A3E4332-FFA6-4B07-8AFE-9F00C3F94BB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstagramDesign", "InstagramDesign\InstagramDesign.csproj", "{27929B28-D894-4862-8FD6-2A94E1F5431F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03205F79-15C8-42B0-9A3D-8084B6B20C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03205F79-15C8-42B0-9A3D-8084B6B20C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03205F79-15C8-42B0-9A3D-8084B6B20C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03205F79-15C8-42B0-9A3D-8084B6B20C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3E4332-FFA6-4B07-8AFE-9F00C3F94BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3E4332-FFA6-4B07-8AFE-9F00C3F94BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3E4332-FFA6-4B07-8AFE-9F00C3F94BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3E4332-FFA6-4B07-8AFE-9F00C3F94BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27929B28-D894-4862-8FD6-2A94E1F5431F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27929B28-D894-4862-8FD6-2A94E1F5431F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27929B28-D894-4862-8FD6-2A94E1F5431F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27929B28-D894-4862-8FD6-2A94E1F5431F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F49F52BA-3669-49B1-9F58-4B2D60F56319}
+	EndGlobalSection
+EndGlobal

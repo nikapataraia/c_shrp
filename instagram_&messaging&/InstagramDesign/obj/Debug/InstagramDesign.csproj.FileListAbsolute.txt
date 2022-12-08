@@ -1,0 +1,46 @@
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\bin\Debug\InstagramDesign.exe.config
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\bin\Debug\InstagramDesign.exe
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\bin\Debug\InstagramDesign.pdb
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.csprojAssemblyReference.cache
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Form1.resources
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Properties.Resources.resources
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.SignIn.resources
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.csproj.GenerateResource.cache
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.csproj.CoreCompileInputs.cache
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.exe
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.pdb
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\bin\Debug\PCL.dll
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\bin\Debug\PCL.pdb
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.SignUp.resources
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.csproj.CopyComplete
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.UserSide.resources
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Direct_Messages.resources
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Account_Settings.resources
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Terminate.resources
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.UploadImage.resources
+C:\Users\Brand Computers\source\repos\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Comments.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\bin\Debug\InstagramDesign.exe.config
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\bin\Debug\InstagramDesign.exe
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\bin\Debug\InstagramDesign.pdb
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\bin\Debug\PCL.dll
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\bin\Debug\PCL.pdb
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.csprojAssemblyReference.cache
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Account_Settings.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Comments.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Direct_Messages.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Form1.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.UploadImage.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Properties.Resources.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.SignIn.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.SignUp.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.Terminate.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.UserSide.resources
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.csproj.GenerateResource.cache
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.csproj.CoreCompileInputs.cache
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.csproj.CopyComplete
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.exe
+C:\Users\Student.STEP-04-03\Desktop\Instagram\InstagramDesign\obj\Debug\InstagramDesign.pdb

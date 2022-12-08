@@ -1,0 +1,18 @@
+C:\Users\Brand Computers\source\repos\Instagram\PCL\bin\Debug\PCL.dll
+C:\Users\Brand Computers\source\repos\Instagram\PCL\bin\Debug\PCL.pdb
+C:\Users\Brand Computers\source\repos\Instagram\PCL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Brand Computers\source\repos\Instagram\PCL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Brand Computers\source\repos\Instagram\PCL\obj\Debug\PCL.csprojAssemblyReference.cache
+C:\Users\Brand Computers\source\repos\Instagram\PCL\obj\Debug\PCL.csproj.CoreCompileInputs.cache
+C:\Users\Brand Computers\source\repos\Instagram\PCL\obj\Debug\PCL.csproj.CopyComplete
+C:\Users\Brand Computers\source\repos\Instagram\PCL\obj\Debug\PCL.dll
+C:\Users\Brand Computers\source\repos\Instagram\PCL\obj\Debug\PCL.pdb
+C:\Users\Student.STEP-04-03\Desktop\Instagram\PCL\bin\Debug\PCL.dll
+C:\Users\Student.STEP-04-03\Desktop\Instagram\PCL\bin\Debug\PCL.pdb
+C:\Users\Student.STEP-04-03\Desktop\Instagram\PCL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Student.STEP-04-03\Desktop\Instagram\PCL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Student.STEP-04-03\Desktop\Instagram\PCL\obj\Debug\PCL.csprojAssemblyReference.cache
+C:\Users\Student.STEP-04-03\Desktop\Instagram\PCL\obj\Debug\PCL.csproj.CoreCompileInputs.cache
+C:\Users\Student.STEP-04-03\Desktop\Instagram\PCL\obj\Debug\PCL.csproj.CopyComplete
+C:\Users\Student.STEP-04-03\Desktop\Instagram\PCL\obj\Debug\PCL.dll
+C:\Users\Student.STEP-04-03\Desktop\Instagram\PCL\obj\Debug\PCL.pdb

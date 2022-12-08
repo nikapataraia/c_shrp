@@ -1,0 +1,12 @@
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\bin\Debug\Instagram.exe.config
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\bin\Debug\Instagram.exe
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\bin\Debug\Instagram.pdb
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\bin\Debug\PCL.dll
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\bin\Debug\PCL.pdb
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\obj\Debug\Instagram.csprojAssemblyReference.cache
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\obj\Debug\Instagram.csproj.CoreCompileInputs.cache
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\obj\Debug\Instagram.csproj.CopyComplete
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\obj\Debug\Instagram.exe
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\obj\Debug\Instagram.pdb
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Brand Computers\source\repos\Instagram\Instagram\bin\Debug\Newtonsoft.Json.xml

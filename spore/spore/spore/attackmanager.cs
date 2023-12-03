@@ -8,11 +8,20 @@ namespace spore
 {
     internal class attackmanager
     {
-        private int health { get; set; }
-        public attackmanager(Random random)
+        private attackevolutionmanager attackevolutionmanager = new attackevolutionmanager();
+        
+        public attackmanager()
         {
-            this.health = random.Next(50, 101);
+            
+        }
 
+        public void addevolve(String evo)
+        {
+            attackevolutionmanager.addevolve(evo);
+        }
+        public int get_dmgoutput()
+        {
+            return (attackevolutionmanager.teethpower() + 1) * attackevolutionmanager.clawpower();
         }
     }
 }

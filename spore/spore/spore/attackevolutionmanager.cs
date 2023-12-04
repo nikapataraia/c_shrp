@@ -13,19 +13,64 @@ namespace spore
         {
             foreach (var evo in constants.abilities)
             {
-                attackevolves.Add(evo.name, 0);
+                if(evo is attackevolution_ability) {
+                    attackevolves.Add(evo.name, 0);
+                }
             }
-            attackevolves["claw"] += 1;
         }
 
-        public int clawpower()
+        public int mult_power()
         {
-            return attackevolves["claw"];
+            List<attackevolution_mult_ability> mult_abilities = constants.abilities.OfType<attackevolution_mult_ability>().ToList();
+            List<int> multies = new List<int>();
+            foreach(var element in attackevolves)
+            {
+                if(element.Value > 0)
+                {
+                    List<attackevolution_mult_ability> selected = mult_abilities.Where(x => x.name == element.Key).ToList();
+                    var selectedElement = selected.OrderByDescending(x => x.count).FirstOrDefault(x => x.count == element.Value);
+
+                    if (selectedElement == null)
+                    {
+                        selectedElement = selected.OrderByDescending(x => x.count).FirstOrDefault();
+                    }
+                    multies.Add(selectedElement.improvement);
+                }
+                
+            }
+            if (multies == null || !multies.Any())
+            {
+                return 1; 
+            }
+            return multies.Aggregate(1, (result, x) => result * x);
+
         }
 
-        public int teethpower()
+        public int add_power()
         {
-            return attackevolves["teeth"] * 3;
+            List<attackevolution_add_ability> add_abilities = constants.abilities.OfType<attackevolution_add_ability>().ToList();
+            List<int> additions = new List<int>();
+
+            foreach (var element in attackevolves)
+            {
+                if (element.Value > 0)
+                {
+                    List<attackevolution_add_ability> selected = add_abilities.Where(x => x.name == element.Key).ToList();
+                    var selectedElement = selected.OrderByDescending(x => x.count).FirstOrDefault(x => x.count == element.Value);
+
+                    if (selectedElement == null)
+                    {
+                        selectedElement = selected.OrderByDescending(x => x.count).FirstOrDefault();
+                    }
+
+                    additions.Add(selectedElement.improvement);
+                }
+            }
+            if (additions == null || !additions.Any())
+            {
+                return 0;
+            }
+            return additions.Sum();
         }
 
         public void addevolve(String evo)

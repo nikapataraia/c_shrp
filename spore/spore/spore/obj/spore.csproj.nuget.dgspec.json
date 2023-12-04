@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git_rep\\c_shrp\\spore\\spore\\spore\\spore.csproj": {}
+    "D:\\git_rep\\c_shrp\\spore\\spore\\spore\\spore.csproj": {}
   },
   "projects": {
-    "C:\\Git_rep\\c_shrp\\spore\\spore\\spore\\spore.csproj": {
+    "D:\\git_rep\\c_shrp\\spore\\spore\\spore\\spore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git_rep\\c_shrp\\spore\\spore\\spore\\spore.csproj",
+        "projectUniqueName": "D:\\git_rep\\c_shrp\\spore\\spore\\spore\\spore.csproj",
         "projectName": "spore",
-        "projectPath": "C:\\Git_rep\\c_shrp\\spore\\spore\\spore\\spore.csproj",
-        "packagesPath": "C:\\Users\\Kiu-Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Git_rep\\c_shrp\\spore\\spore\\spore\\obj\\",
+        "projectPath": "D:\\git_rep\\c_shrp\\spore\\spore\\spore\\spore.csproj",
+        "packagesPath": "C:\\Users\\PC Zone\\.nuget\\packages\\",
+        "outputPath": "D:\\git_rep\\c_shrp\\spore\\spore\\spore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kiu-Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC Zone\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -21,7 +21,7 @@ namespace spore
         }
         public int get_dmgoutput()
         {
-            return (attackevolutionmanager.teethpower() + 1) * attackevolutionmanager.clawpower();
+            return (1 + attackevolutionmanager.add_power()) * attackevolutionmanager.mult_power();
         }
     }
 }

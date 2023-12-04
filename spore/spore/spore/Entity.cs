@@ -47,6 +47,25 @@ namespace spore
             return defensemanager.gethealth();
         }
 
+        public void add_evolve(String name)
+        {
+            foreach(var ability in constants.abilities)
+            {
+                if(ability.name == name)
+                {
+                    if(ability is attackevolution_ability)
+                    {
+                        attackmanager.addevolve(ability.name);
+                    }
+                    if(ability is mobilityevolution_ability)
+                    {
+                        mobilitymanager.addevolve(ability.name);
+                    }
+                    return;
+                }
+            }
+        }
+
         
     }
 }

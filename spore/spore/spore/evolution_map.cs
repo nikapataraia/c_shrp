@@ -15,9 +15,9 @@ namespace spore
             generate_evolutions(2000);
         }
 
-        private string GetRandomEvolutionType()
+        private string GetRandomEvolution()
         {
-            string[] possibleEvolutions = (string[])constants.offensiveEvolutions.Union(constants.mobilityEvolutions);
+            string[] possibleEvolutions = constants.abilities.Select(x => x.name).ToArray();
             Random rand = new Random();
             int index = rand.Next(possibleEvolutions.Length);
             return possibleEvolutions[index];
@@ -36,7 +36,7 @@ namespace spore
                 int randomPosition = rand.Next(lastloadin, chunk);
                 if (!map.ContainsKey(randomPosition))
                 {
-                    string evolutionType = GetRandomEvolutionType();
+                    string evolutionType = GetRandomEvolution();
                     map[randomPosition] = evolutionType;
                 }
                 else
@@ -53,15 +53,23 @@ namespace spore
             return lastloadin;
         }
 
-        public String Check_location(int cord)
+        public String get_evolution(int cord)
         {
-            if (!map.ContainsKey(cord))
-            {
-                return "";
-            }
             String result = map[cord];
             map.Remove(cord);
             return result;
+        }
+
+        public Boolean check_location(int cord)
+        {
+            return map.ContainsKey(cord);
+        }
+        
+
+        public void restart()
+        {
+            lastloadin = 0;
+
         }
 
     }

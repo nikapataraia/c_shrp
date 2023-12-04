@@ -9,14 +9,14 @@ namespace spore
     internal class mobilitymanager
     {
         private int location;
-        private staminamanager staminamanager { get; set; } = new staminamanager(); 
+        private staminamanager staminamanager { get; set; } = new staminamanager();
         private mobilityevolutionmanager mobilityevolutionmanager { get; set; } = new mobilityevolutionmanager();
 
-        
-        public mobilitymanager(int location,Random random)
+
+        public mobilitymanager(int location, Random random)
         {
             this.location = location;
-           
+
         }
         public int get_location()
         {
@@ -25,6 +25,11 @@ namespace spore
         public Boolean has_stamina()
         {
             return staminamanager.getstamina() > 0;
+        }
+
+        public void add_evolve(String name)
+        {
+            mobilityevolutionmanager.addevolve(name);
         }
 
         public mobilityevolution_ability optimal_move()

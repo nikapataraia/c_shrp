@@ -12,15 +12,15 @@ namespace spore
         public int count;
     }
 
-    internal class attackevolution : evolution_ability
+    internal class attackevolution_ability : evolution_ability
     {
         public int improvement;
     }
-    internal class attackevolution_mult_ability : attackevolution 
+    internal class attackevolution_mult_ability : attackevolution_ability
     {
     }
 
-    internal class attackevolution_add_ability : attackevolution 
+    internal class attackevolution_add_ability : attackevolution_ability
     {
     }
 

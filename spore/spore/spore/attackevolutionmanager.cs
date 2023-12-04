@@ -11,9 +11,9 @@ namespace spore
         private Dictionary<String, int> attackevolves = new Dictionary<String, int>();
         public attackevolutionmanager()
         {
-            foreach (var attack in constants.offensiveEvolutions)
+            foreach (var evo in constants.abilities)
             {
-                attackevolves.Add(attack, 0);
+                attackevolves.Add(evo.name, 0);
             }
             attackevolves["claw"] += 1;
         }

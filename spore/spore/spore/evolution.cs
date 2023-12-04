@@ -6,43 +6,30 @@ using System.Threading.Tasks;
 
 namespace spore
 {
-    internal class evolution
-    {
-        private int count { get; set; }
-        public evolution()
-        {
-            count = 0;
-        }
-        public int getcount()
-        {
-            return count;
-        }
-        public void evolve()
-        {
-            count++;
-        }
+    internal class evolution_ability
+    { 
+        public string name;
+        public int count;
     }
 
-    internal class attackevolution : evolution
+    internal class attackevolution : evolution_ability
+    {
+        public int improvement;
+    }
+    internal class attackevolution_mult_ability : attackevolution 
     {
     }
 
-    internal class mobilityevolution : evolution
+    internal class attackevolution_add_ability : attackevolution 
     {
     }
-    class leg : mobilityevolution
-    {
-    }
-    class wing : mobilityevolution
-    {
 
-    }
-    class claw : attackevolution
-    {
 
-    }
-    class teeth : attackevolution
-    {
 
+    internal class mobilityevolution_ability : evolution_ability
+    {
+        public int stamina_cost;
+        public int stamina_requirment;
+        public int speed;
     }
 }

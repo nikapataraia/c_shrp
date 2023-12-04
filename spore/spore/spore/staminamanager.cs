@@ -11,52 +11,20 @@ namespace spore
         private int stamina { get; set; }
         public staminamanager() {
             Random random = new Random();
-            this.stamina = random.Next(50, 101);
+            this.stamina = random.Next(50, 151);
         }
         public int getstamina()
         {
             return stamina;
         }
 
-        public Boolean can_crawl()
+        public List<mobilityevolution_ability> can_do_ability(List<mobilityevolution_ability> lst)
         {
-            return stamina >= 1;
+            return lst.Where(x => x.stamina_requirment < stamina).ToList();
         }
-        public Boolean can_hop()
+        public void do_ability(int stm)
         {
-            return stamina >= 20;
-        }
-        public Boolean can_walk()
-        {
-            return stamina >= 40;
-        }
-        public Boolean can_run()
-        {
-            return stamina >= 60;
-        }
-        public Boolean can_fly()
-        {
-            return stamina >= 80;
-        }
-        public void crawl()
-        {
-            stamina -= 1;
-        }
-        public void hop()
-        {
-            stamina -= 2;
-        }
-        public void walk()
-        {
-            stamina -= 2;
-        }
-        public void run()
-        {
-            stamina -= 4;
-        }
-        public void fly()
-        {
-            stamina -= 4;
+            stamina -= stm;
         }
     }
 }

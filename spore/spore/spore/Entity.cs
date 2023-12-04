@@ -30,7 +30,7 @@ namespace spore
         }
         public void move()
         {
-            mobilitymanager.optimal_move();
+            mobilitymanager.make_optimal_move();
         }
         public int get_location()
         {

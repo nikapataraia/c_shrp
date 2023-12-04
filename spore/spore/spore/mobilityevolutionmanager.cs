@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,22 +11,14 @@ namespace spore
     {
         private Dictionary<String, int> mobilityevolves = new Dictionary<String, int>();
         public mobilityevolutionmanager() {
-               foreach(var evo in constants.mobilityEvolutions){
-                mobilityevolves.Add(evo, 0);
+               foreach(var evo in constants.abilities){
+                mobilityevolves.Add(evo.name, 0);
             }
         }
 
-        public Boolean can_hop()
+        public List<mobilityevolution_ability> can_do_ability(List<mobilityevolution_ability> lst)
         {
-            return mobilityevolves["leg"] >= 1;
-        }
-        public Boolean can_walk_or_run()
-        {
-            return mobilityevolves["leg"] >= 2;
-        }
-        public Boolean can_fly()
-        {
-            return mobilityevolves["wing"] >= 2;
+            return lst.Where(x => x.count <= mobilityevolves[x.name]).ToList();
         }
 
         public void addevolve(String evo)

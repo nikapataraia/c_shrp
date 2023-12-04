@@ -27,38 +27,26 @@ namespace spore
             return staminamanager.getstamina() > 0;
         }
 
-        public void optimal_move()
+        public mobilityevolution_ability optimal_move()
         {
-            if(mobilityevolutionmanager.can_fly() && staminamanager.can_fly())
-            {
-                staminamanager.fly();
-                location += 8;
-                return;
-            }
-            if(mobilityevolutionmanager.can_walk_or_run() && staminamanager.can_run())
-            {
-                staminamanager.run();
-                location += 6;
-                return;
-            }
-            if(mobilityevolutionmanager.can_walk_or_run() && staminamanager.can_walk())
-            {
-                staminamanager.walk();
-                location += 4;
-                return;
-            }
-            if(mobilityevolutionmanager.can_hop() && staminamanager.can_hop())
-            {
-                staminamanager.hop();
-                location += 3;
-                return;
-            }
-            if (staminamanager.can_crawl())
-            {
-                staminamanager.crawl();
-                location += 1;
-                return;
-            }
+            List<mobilityevolution_ability> mobilityEvolutions = constants.abilities.OfType<mobilityevolution_ability>().ToList();
+            List<mobilityevolution_ability> av_moves = available_moves(mobilityEvolutions);
+            return av_moves.OrderByDescending(m => m.speed).FirstOrDefault();
+            
+        }
+
+        public List<mobilityevolution_ability> available_moves(List<mobilityevolution_ability> mobilityevolutions)
+        {
+            List<mobilityevolution_ability> enough_stamina_for = staminamanager.can_do_ability(mobilityevolutions);
+            List<mobilityevolution_ability> available_moves = mobilityevolutionmanager.can_do_ability(enough_stamina_for);
+            return available_moves;
+        }
+
+        public void make_optimal_move()
+        {
+            mobilityevolution_ability chosen_move = optimal_move();
+            staminamanager.do_ability(chosen_move.stamina_cost);
+            location += chosen_move.speed;
         }
        
     }

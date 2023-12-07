@@ -8,7 +8,7 @@ namespace spore
 {
     internal class Pray : Entity
     {
-        public Pray() : base(new Random().Next(1, 1001))
+        public Pray() : base(new Random().Next(1, 101))
         {
 
         }   

@@ -15,12 +15,19 @@ namespace spore
             generate_evolutions(2000);
         }
 
-        private string GetRandomEvolution()
-        {
-            string[] possibleEvolutions = constants.abilities.Select(x => x.name).ToArray();
+        private string GetRandomEvolution() {
+
+            string[] possibleEvolutionsWithoutBody = constants.abilities
+    .Where(x => x.name != "body")
+    .Select(x => x.name)
+    .ToArray();
+
+            string[] finalPossibleEvolutions = possibleEvolutionsWithoutBody
+                .Where(name => !possibleEvolutionsWithoutBody.Contains(name))
+                .ToArray();
             Random rand = new Random();
-            int index = rand.Next(possibleEvolutions.Length);
-            return possibleEvolutions[index];
+            int index = rand.Next(finalPossibleEvolutions.Length);
+            return finalPossibleEvolutions[index];
         }
 
         public void generate_evolutions(int chunk)

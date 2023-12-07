@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace spore
 {
-    internal class APP
+    class APP
     {
         private Entity pray = new Pray();
         private Entity predator = new Predator();
@@ -22,15 +22,12 @@ namespace spore
             while (true)
             {
                 Boolean ispraydead = pray.take_a_hit(pray.attack());
-                Boolean ispredatordead = predator.take_a_hit(predator.attack());
-                if(ispraydead && ispredatordead)
-                {
-                    return "both died";
-                }
                 if (ispraydead)
                 {
                     return "Some R-rated things have happened";
                 }
+
+                Boolean ispredatordead = predator.take_a_hit(predator.attack());
                 if (ispredatordead)
                 {
                     return "Pray ran into infinity";
@@ -54,19 +51,24 @@ namespace spore
 
         public void move_phase()
         {
-            predator.move();
-            int predator_loc = predator.get_location();
-            if (evo_map.check_location(predator_loc))
+            if (predator.has_stamina())
             {
-                predator.add_evolve(evo_map.get_evolution(predator_loc));
+                predator.move();
+                int predator_loc = predator.get_location();
+                if (evo_map.check_location(predator_loc))
+                {
+                    predator.add_evolve(evo_map.get_evolution(predator_loc));
+                }
             }
 
-
-            pray.move();
-            int pray_loc = pray.get_location();
-            if(evo_map.check_location(pray_loc))
+            if (pray.has_stamina())
             {
-                pray.add_evolve(evo_map.get_evolution(pray_loc));
+                pray.move();
+                int pray_loc = pray.get_location();
+                if (evo_map.check_location(pray_loc))
+                {
+                    pray.add_evolve(evo_map.get_evolution(pray_loc));
+                }
             }
         }
 

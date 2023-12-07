@@ -13,8 +13,12 @@ namespace spore
         {
             foreach (var evo in constants.abilities)
             {
-                if(evo is attackevolution_ability) {
-                    attackevolves.Add(evo.name, 0);
+                if (!attackevolves.ContainsKey(evo.name))
+                {
+                    if (evo is attackevolution_ability)
+                    {
+                        attackevolves.Add(evo.name, 0);
+                    }
                 }
             }
         }
@@ -34,7 +38,10 @@ namespace spore
                     {
                         selectedElement = selected.OrderByDescending(x => x.count).FirstOrDefault();
                     }
-                    multies.Add(selectedElement.improvement);
+                    if(!(selectedElement == null)) {
+                        multies.Add(selectedElement.improvement);
+                    }
+                   
                 }
                 
             }
@@ -62,8 +69,11 @@ namespace spore
                     {
                         selectedElement = selected.OrderByDescending(x => x.count).FirstOrDefault();
                     }
-
-                    additions.Add(selectedElement.improvement);
+                    if(!(selectedElement == null))
+                    {
+                        additions.Add(selectedElement.improvement);
+                    }
+                    
                 }
             }
             if (additions == null || !additions.Any())

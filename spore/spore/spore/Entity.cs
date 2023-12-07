@@ -59,7 +59,7 @@ namespace spore
                     }
                     if(ability is mobilityevolution_ability)
                     {
-                        mobilitymanager.addevolve(ability.name);
+                        mobilitymanager.add_evolve(ability.name);
                     }
                     return;
                 }

@@ -11,8 +11,14 @@ namespace spore
     {
         private Dictionary<String, int> mobilityevolves = new Dictionary<String, int>();
         public mobilityevolutionmanager() {
+            
                foreach(var evo in constants.abilities){
-                mobilityevolves.Add(evo.name, 0);
+                if (!mobilityevolves.ContainsKey(evo.name))
+                {
+                    mobilityevolves.Add(evo.name, 0);
+
+                }
+                
             }
         }
 

@@ -1,0 +1,15 @@
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\spore.csproj.AssemblyReference.cache
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\spore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\spore.AssemblyInfoInputs.cache
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\spore.AssemblyInfo.cs
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\spore.csproj.CoreCompileInputs.cache
+C:\Git_rep\c_shrp\spore\spore\spore\bin\Debug\net6.0\spore.exe
+C:\Git_rep\c_shrp\spore\spore\spore\bin\Debug\net6.0\spore.deps.json
+C:\Git_rep\c_shrp\spore\spore\spore\bin\Debug\net6.0\spore.runtimeconfig.json
+C:\Git_rep\c_shrp\spore\spore\spore\bin\Debug\net6.0\spore.dll
+C:\Git_rep\c_shrp\spore\spore\spore\bin\Debug\net6.0\spore.pdb
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\spore.dll
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\refint\spore.dll
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\spore.pdb
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\spore.genruntimeconfig.cache
+C:\Git_rep\c_shrp\spore\spore\spore\obj\Debug\net6.0\ref\spore.dll
